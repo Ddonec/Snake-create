@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Змейка - Главная</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Добро пожаловать в игру "Змейка"</h1>
-    <a href="registration.html">Регистрация</a>
-    <a href="leaderboard.html">Рейтинг игроков</a>
+  <div class="container">
+    <div id="game-board">
+      <!-- Поле игры -->
+      <canvas id="gameCanvas"></canvas>
+    </div>
+    <div id="controls">
+      <!-- Управление змейкой -->
+      <button id="upBtn">Вверх</button>
+      <button id="downBtn">Вниз</button>
+      <button id="leftBtn">Влево</button>
+      <button id="rightBtn">Вправо</button>
+      <button id="pauseBtn">Пауза</button>
+    </div>
+    <div id="score-board">
+      <p>Очки: <span id="score">0</span></p>
+    </div>
+  </div>
+  <script src="game.js"></script>
 </body>
 </html>

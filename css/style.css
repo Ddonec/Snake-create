@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #game-board {
+    margin-bottom: 20px;
+  }
+  
+  canvas {
+    background-color: #000;
+    border: 2px solid #333;
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  #score-board {
+    font-size: 20px;
+  }
+  
