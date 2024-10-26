@@ -1,1 +1,1 @@
-# Snake-create
+[# Snake-create](https://ddonec.github.io/snake-create)
